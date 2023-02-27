@@ -1,0 +1,28 @@
+ul {
+  list-style: none;
+}
+li {
+  width: 400px;
+}
+a {
+  text-decoration-line: none;
+  font-size: 20px;
+  color: inherit;
+}
+.coin-box:hover {
+  transition: 0.3s;
+  scale: 1.03;
+  border: 1.6px solid royalblue;
+  will-change: transform;
+}
+.coin-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 50px;
+  border: 1px solid lightslategray;
+  border-radius: 8px;
+  transition: 0.3s;
+}
