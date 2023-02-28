@@ -21,7 +21,7 @@ import Detail from "./routes/Detail";
 
 const main = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-project-movie-web",
     element: <Home />,
   },
   {
