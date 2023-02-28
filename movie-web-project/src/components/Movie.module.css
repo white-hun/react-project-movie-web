@@ -4,6 +4,7 @@
 }
 .movie {
   max-width: 600px;
+  max-height: 230px;
   background-color: white;
   margin-bottom: 10px;
   font-weight: 300;
@@ -35,12 +36,12 @@
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
 .movie__title {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 500;
-  margin: 0;
+  margin: 0 20px;
 }
 .movie__year {
-  margin: 0;
+  margin: 0 20px;
   font-weight: 400;
 }
 
@@ -54,16 +55,18 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   margin: 5px 0px;
 }
-
+.movie__genres li {
+  margin-left: 20px;
+}
 .movie__genres li,
 .movie__year {
-  margin-right: 10px;
   font-size: 16px;
   font-weight: 400;
+  margin-right: 10px;
 }
 
 .movie__box {

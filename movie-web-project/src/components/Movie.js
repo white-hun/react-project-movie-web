@@ -9,10 +9,11 @@ export default function Movie({ id, coverImg, title, year, summary, genres }) {
       <Link to={`/movie/${id}`}>
         <div className={styles.movie__box}>
           <h2 className={styles.movie__title}>{title}</h2>
-          <h3 className={styles.movie__year}>{year}</h3>
-          <p>
+          {/* <h3 className={styles.movie__year}>{year}</h3> */}
+          {/* <p>
             {summary.length > 235 ? `${summary.slice(0, 235)}...` : summary}
-          </p>
+          </p> */}
+          <hr />
           <ul className={styles.movie__genres}>
             {genres.map((g) => (
               <li key={g}>{g}</li>
